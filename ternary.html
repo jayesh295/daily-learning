@@ -20,3 +20,26 @@
 </script>
 </body>
 </html>
+
+<script>
+        let username = prompt("Enter username ","");
+
+        if(username === "Admin"){
+            let password = prompt("Enter password","");
+            if(password === "TheMaster"){
+                alert("Welcome");
+            }
+            else if (password === "" || password === null){
+                alert("cancled")
+            }
+            else{
+                alert("wrong password");
+            }
+        }
+        else if (username === "" || username ===  null){
+            alert("Cancled");
+        }
+        else{
+            alert("I don't know about you")
+        }
+    </script>
